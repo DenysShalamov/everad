@@ -1,0 +1,43 @@
+.header {
+  background-color: #0072bc;
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__logo-img {
+    margin-top: 5px;
+  }
+
+  &__logo-box {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__site-name {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  &__btn-box {
+    padding-bottom: 10px;
+  }
+
+  &__btn {
+    background-color: #f26522;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+}
+

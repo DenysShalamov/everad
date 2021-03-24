@@ -1,0 +1,111 @@
+.stock {
+  background-color: #6dcff6;
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__title {
+    padding-top: 30px;
+    font-size: 24px;
+    color: #ffff;
+    text-shadow: 1px 5px 15px black;
+    margin-bottom: 30px;
+  }
+
+  &__slider {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  &__img {
+    width: 250px;
+  }
+}
+
+.slider-btn {
+  background-color: #6dcff6;
+  border: none;
+  position: absolute;
+  bottom: 45px;
+  outline: none;
+  cursor: pointer;
+
+  &__left {
+    left: 60px;
+  }
+
+  &__right {
+    right: 60px;
+  }
+}
+
+.my-dots {
+  
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+  
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1;
+  color: #bcbcbc;
+}
+
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 74px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  color: #ffff;
+  content: '•';
+  text-align: center;
+  
+   
+}
+
+.my-dots li.slick-active button:before {
+  color: #9a9b9b;
+}
+
+
